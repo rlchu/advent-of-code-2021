@@ -10,7 +10,7 @@ module Day01
   end
 
   def self.count_measurement_sum_group_increases(input)
-    input_sums = input.each_cons(3).map{|batch| batch.sum}
+    input_sums = input.each_cons(3).map{ |batch| batch.sum }
     count_depth_measurement_increases(input_sums)
   end
 end
