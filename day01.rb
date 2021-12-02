@@ -15,7 +15,7 @@ module Day01
   end
 end
 
-input = File.readlines('input').map{ |num| num.strip.to_i }
+input = File.readlines('day01.input').map{ |num| num.strip.to_i }
 
 puts Day01.count_depth_measurement_increases(input)
 puts Day01.count_measurement_sum_group_increases(input)
